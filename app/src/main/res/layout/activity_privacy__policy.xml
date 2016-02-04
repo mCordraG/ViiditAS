@@ -16,7 +16,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.sergioh.viidit.terms_conditions"
+        tools:context="com.example.sergioh.viidit.Privacy_Policy"
         android:background="#f8c725">
 
 
@@ -33,7 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/terms_title"
+                    android:text="@string/privacy_title"
                     android:id="@+id/textView12"
                     android:textSize="35dp"
                     android:layout_alignParentTop="true"
@@ -44,111 +44,93 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="@string/terms_last_update"
+                    android:text="@string/privacy_last_update"
                     android:id="@+id/textView13"
                     android:layout_below="@+id/textView12"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="10dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_1"
-                    android:id="@+id/textView14" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_1"
+                    android:text="@string/phra_0"
                     android:id="@+id/textView15" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_2"
+                    android:text="@string/title2_1"
                     android:id="@+id/textView16" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_2"
+                    android:text="@string/phra_1"
                     android:id="@+id/textView17" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_3"
+                    android:text="@string/title2_2"
                     android:id="@+id/textView18" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_3"
+                    android:text="@string/phra_2"
                     android:id="@+id/textView19" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_4"
+                    android:text="@string/title2_3"
                     android:id="@+id/textView20" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_4"
+                    android:text="@string/phra_3"
                     android:id="@+id/textView21" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_5"
+                    android:text="@string/title2_4"
                     android:id="@+id/textView22" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_5"
+                    android:text="@string/phra_4"
                     android:id="@+id/textView23" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_6"
+                    android:text="@string/title2_5"
                     android:id="@+id/textView24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_6"
+                    android:text="@string/phra_5"
                     android:id="@+id/textView25" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_7"
+                    android:text="@string/title2_6"
                     android:id="@+id/textView26" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pha_7"
+                    android:text="@string/phra_6"
                     android:id="@+id/textView27" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/title_8"
-                    android:id="@+id/textView28" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pha_8"
-                    android:id="@+id/textView29" />
 
             </LinearLayout>
         </ScrollView>
@@ -157,4 +139,3 @@
     </RelativeLayout>
 
 </LinearLayout>
-

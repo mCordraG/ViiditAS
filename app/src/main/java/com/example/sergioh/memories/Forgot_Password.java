@@ -6,29 +6,25 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Login_account extends AppCompatActivity {
-    TextView text_toolbar;
-    EditText Email,Password;
+public class Forgot_Password extends AppCompatActivity {
     Button volver;
+    TextView text_toolbar;
+    EditText Email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_account);
+        setContentView(R.layout.activity_forgot__password);
 
         text_toolbar = (TextView)findViewById(R.id.text_toolbar);
-        text_toolbar.setText("Log in with email");
+        text_toolbar.setText("Forgot Password");
+        volver=(Button)findViewById(R.id.btn_volverToolbar);
 
-        Email =(EditText)findViewById(R.id.email_LoginAccount);
-        Password= (EditText)findViewById(R.id.password_loginAccount);
-
-        volver = (Button)findViewById(R.id.btn_volverToolbar);
+        Email =(EditText)findViewById(R.id.email_forgotPassword);
         Toolbar toolbar = (Toolbar) findViewById(R.id.appbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -40,45 +36,17 @@ public class Login_account extends AppCompatActivity {
                 finish();
             }
         });
-    }
-       /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-    */
-
-    public void toForgot_Password(View v){
-
-        Intent i = new Intent(this, Forgot_Password.class);
-        startActivity(i);
-
-    }
-    public void toCreateAccount(View v){
-
-        Intent i = new Intent(this, Create_account.class);
-        startActivity(i);
 
     }
 
 
-    public void send_LoginAccount(View v){
+    public void Send_Email_forgotPassword(View v){
         String email = Email.getText().toString();
-        String password = Password.getText().toString();
-        if(email.equalsIgnoreCase("")||password.equalsIgnoreCase("")){
+        if(email.equalsIgnoreCase("")){
             AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
 
             dialogo.setTitle("Error");
-            dialogo.setMessage("Ingrese todos los campos");
+            dialogo.setMessage("Ingrese un Email Valido");
             dialogo.setIcon(R.drawable.option2);
             dialogo.setPositiveButton("continuar", new DialogInterface.OnClickListener(){
                 public void onClick(DialogInterface dialog, int witch) {
@@ -94,4 +62,6 @@ public class Login_account extends AppCompatActivity {
         }
 
     }
+
+
 }

@@ -6,10 +6,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
+    <solid android:color="#fff"></solid>
     <stroke
         android:dashGap="0dp"
         android:dashWidth="0dp"
         android:width="1dp"
-        android:color="#0e0e0e" />
+        android:color="#fff" />
 
 </shape>

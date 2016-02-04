@@ -3,6 +3,7 @@
     package="com.example.sergioh.memories">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -25,6 +26,9 @@
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".Camera" />
         <activity android:name=".Terms_Conditions" />
+        <activity android:name=".Privacy_Policy" />
+        <activity android:name=".Forgot_Password"
+            android:windowSoftInputMode="stateHidden"></activity>
 
     </application>
 

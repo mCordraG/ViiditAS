@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -16,6 +17,7 @@ public class Create_account extends AppCompatActivity {
     EditText name,first_name,Email,password;
     TextView text_toolbar;
     TextView crear;
+    Button volver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +29,21 @@ public class Create_account extends AppCompatActivity {
         crear = (TextView)findViewById(R.id.btn_create_account);
         text_toolbar = (TextView)findViewById(R.id.text_toolbar);
         text_toolbar.setText("Create a account");
+        volver=(Button)findViewById(R.id.btn_volverToolbar);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.appbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        volver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                finish();
+            }
+        });
     }
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
@@ -45,9 +57,9 @@ public class Create_account extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+    */
 
-
-    public void CreateAccount(View v){
+    public void send_CreateAccount(View v){
         String nombre = name.getText().toString();
         String apellido = first_name.getText().toString();
         String email = Email.getText().toString();
@@ -56,7 +68,7 @@ public class Create_account extends AppCompatActivity {
             AlertDialog.Builder dialogo = new AlertDialog.Builder(this);
 
             dialogo.setTitle("Error");
-            dialogo.setMessage("Ingrese el  nombre de un medicamento");
+            dialogo.setMessage("Ingrese todos los campos");
             dialogo.setIcon(R.drawable.option2);
             dialogo.setPositiveButton("continuar", new DialogInterface.OnClickListener(){
                 public void onClick(DialogInterface dialog, int witch) {
@@ -72,4 +84,17 @@ public class Create_account extends AppCompatActivity {
         }
 
     }
+    public void toTerms_Conditions(View v){
+
+        Intent i = new Intent(this, Terms_Conditions.class);
+        startActivity(i);
+
+    }
+    public void toPrivacy_Policy(View v){
+
+        Intent i = new Intent(this, Privacy_Policy.class);
+        startActivity(i);
+
+    }
+
 }

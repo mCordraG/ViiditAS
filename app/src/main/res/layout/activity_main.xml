@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Log in using your Email"
         android:id="@+id/btn_LoginEmail"
-        android:onClick="LoginAccount"
+        android:onClick="toLoginAccount"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_edittext"
@@ -55,6 +55,7 @@
         android:text="Forgot your password? "
         android:id="@+id/textView"
         android:layout_below="@+id/btn_LoginEmail"
+        android:onClick="toForgot_Password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
         android:textColor="#0e0e0e" />
@@ -88,7 +89,9 @@
             android:id="@+id/textView4"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="false"
+            android:layout_above="@+id/textView10" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -110,7 +113,7 @@
             android:layout_alignTop="@+id/textView10"
             android:layout_toRightOf="@+id/textView10"
             android:layout_toEndOf="@+id/textView10"
-            android:onClick="Go_Camera"
+            android:onClick="toPrivacy_Policy"
             android:textStyle="bold" />
 
         <TextView
@@ -122,8 +125,9 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:onClick="Terms_Conditions"
-            android:textStyle="bold" />
+            android:onClick="toTerms_Conditions"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/textView10" />
     </RelativeLayout>
 
 </RelativeLayout>

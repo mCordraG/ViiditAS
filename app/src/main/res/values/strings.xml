@@ -1,61 +1,187 @@
 <resources>
     <string name="app_name">Memories</string>
 
-    <!-- Strings related to Settings -->
 
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
+    <!-- General-->
+    <string name="create_account_Title">Create an account</string>
+    <string name="create_account_text">Create account</string>
+    <string name="forgot_password">Forgot your password?</string>
 
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
+    <!--Forgot Password-->
+    <string name="forgot_text">Enter the email address associated with your account</string>
+    <string name="btn_forgot_text">Submit</string>
 
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
+    <!--End Forgot Password -->
 
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
+    <!-- Camera-->
+    <string name="camera_text_sup">Create your marker picture</string>
+    <string name="camera_text_bot">Use your camera to take a picture of the item you would like your message attached to. Your picture will then...</string>
 
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <!--End Camera -->
 
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
 
-    <string name="pref_title_system_sync_settings">System sync settings</string>
 
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
 
-    <string name="pref_title_new_message_notifications">New message notifications</string>
 
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
 
-    <string name="pref_title_vibrate">Vibrate</string>
+    <!--Text Terms & Conditions -->
+    <string name="terms_title">Terms &amp; Conditions</string>
+    <string name="terms_last_update">Last updated July 18, 2014</string>
+
+    <string name="title_1">Description of Services</string>
+    <string name="pha_1">With our Viidit app, we provide you with an augmented reality (AR) experience which allows you (the “User”) to view or create what we call Viidit messages. In essence, Viidit uses the camera in your smartphone or tablet to scan and recognize images that have AR messages attached to them and then it returns to you that response from Viidit Users or other third party content publishers (“Publishers”), and other software, databases, applications and services (together “Services”), including but not limited to: (a) your use of application programming interfaces (“API”), and (b) the provision of AR which may contain content which could be anything from a simple video, audio file, 3D animation, pictures and links as well as images required for the tracking and detection of features to display content (“Reference Images”), jointly referred to as the “Third Party Content.” We also allow you to create your own content and Viidit messages by interacting with other users (“User Generated Content”). When using Viidit, you are required to comply with all intellectual property rights of third parties at all times.</string>
+
+    <string name="title_2">1. Acceptance of Terms</string>
+    <string name="pha_2">1.1. With our Viidit app, we provide you with an augmented reality (AR) experience which allows you (the “User”) to view or create what we call Viidit messages. In essence, Viidit uses the camera in your smartphone or tablet to scan and recognize images that have AR messages attached to them and then it returns to you that response from Viidit Users or other third party content publishers (“Publishers”), and other software, databases, applications and services (together “Services”), including but not limited to: (a) your use of application programming interfaces (“API”), and (b) the provision of AR which may contain content which could be anything from a simple video, audio file, 3D animation, pictures and links as well as images required for the tracking and detection of features to display content (“Reference Images”), jointly referred to as the “Third Party Content.” We also allow you to create your own content and Viidit messages by interacting with other users (“User Generated Content”). When using Viidit, you are required to comply with all intellectual property rights of third parties at all times.
+
+With our Viidit app, we provide you with an augmented reality (AR) experience which allows you (the “User”) to view or create what we call Viidit messages. In essence, Viidit uses the camera in your smartphone or tablet to scan and recognize images that have AR messages attached to them and then it returns to you that response from Viidit Users or other third party content publishers (“Publishers”), and other software, databases, applications and services (together “Services”), including but not limited to: (a) your use of application programming interfaces (“API”), and (b) the provision of AR which may contain content which could be anything from a simple video, audio file, 3D animation, pictures and links as well as images required for the tracking and detection of features to display content (“Reference Images”), jointly referred to as the “Third Party Content.” We also allow you to create your own content and Viidit messages by interacting with other users (“User Generated Content”). When using Viidit, you are required to comply with all intellectual property rights of third parties at all times.
+
+1.2. With our Viidit app, we provide you with an augmented reality (AR) experience which allows you (the “User”) to view or create what we call Viidit messages. In essence, Viidit uses the camera in your smartphone or tablet to scan and recognize images that have AR messages attached to them and then it returns to you that response from Viidit Users or other third party content publishers (“Publishers”), and other software, databases, applications and services (together “Services”), including but not limited to: (a) your use of application programming interfaces (“API”), and (b) the provision of AR which may contain content which could be anything from a simple video, audio file, 3D animation, pictures and links as well as images required for the tracking and detection of features to display content (“Reference Images”), jointly referred to as the “Third Party Content.” We also allow you to create your own content and Viidit messages by interacting with other users (“User Generated Content”). When using Viidit, you are required to comply with all intellectual property rights of third parties at all times.</string>
+
+    <string name="title_3">2. Use of Services</string>
+    <string name="pha_3">2.1. With our Viidit app, we provide you with an augmented reality (AR) experience which allows you (the “User”) to view or create what we call Viidit messages. In essence, Viidit uses the camera in your smartphone or tablet to scan and recognize images that have AR messages attached to them and then it returns to you that response from Viidit Users or other third party content publishers (“Publishers”), and other software, databases, applications and services (together “Services”), including but not limited to: (a) your use of application programming interfaces (“API”), and (b) the provision of AR which may contain content which could be anything from a simple video, audio file, 3D animation, pictures and links as well as images required for the tracking and detection of features to display content (“Reference Images”), jointly referred to as the “Third Party Content.” We also allow you to create your own content and Viidit messages by interacting with other users (“User Generated Content”). When using Viidit, you are required to comply with all intellectual property rights of third parties at all times.
+
+2.2. Whether or not you connect to our Services directly or through a third party, you are responsible for any User Generated Content that you exchange, provide or upload. You should always be aware of and pay cautious attention to the context and environment in which you exchange, provide or upload content. You will refrain from: (i) posting or displaying content that is offensive, degrading, indecent, libelous, obscene, pornographic or otherwise objectionable to others or that violates the privacy, intellectual property or other rights of third parties or is in violation of legislation or regulation, including international treaties – in particular content containing material that is protected by intellectual property rights, without the written consent of the owner of such rights, other than excerpts permitted legally; (ii) engaging in any activity that, directly or indirectly, interferes with or disrupts the Services; (iii) jeopardizing yourself or any third party in any way by using the Services; (iv) impersonating any person or entity, or forge or manipulate headers to disguise the origin of content; (v) interact with other users of the Services in contravention of these T&amp;C or in an unlawful manner. You must take all necessary measures to protect your devices from viruses, worms and other harmful content; (vi) harvesting or otherwise collecting data about others, including email addresses, without their consent. You agree that you are solely responsible for your User Content and that Viidit is not responsible or liable for any User Content. While we are not obligated to do so, we reserve the right, and have absolute discretion, to review, screen and delete User Content at any time and for any reason.
+
+2.3. From time-to-time, the Services may contain links to other websites/sources. We do not control these, we are not responsible for any information contained therein and we disclaim any responsibility for these sources or websites.
+
+2.4. You understand that you may be exposed to Third Party Content that is objectionable, indecent or otherwise offensive. Third Party Content may also contain material that violates the privacy, intellectual property or other rights of third parties. We do not represent or imply that we approve of the Third Party Content and we cannot review or verify whether the Third Party Content is accurate, useful or harmless. Should you come across Third Party Content, which violates any applicable law or regulation (including intellectual property, privacy laws and regulations), please follow the Notice-and-take-down Procedure as well.
+
+2.5. Intellectual property rights may protect Third Party Content or parts thereof. Consequently, you may not sell, distribute, or modify in any way the Third Party Content. At Viidit’s sole discretion, we may revoke or disallow your use of attaching messages or Content to any Marker or Referenced Imaged, even if you took the picture of a tangible object to create that Maker or Referenced Image, regardless if it is not deemed to be intellectual property. Only Viidit can determine who can use a specific Marker or Referenced Image, and we have the right to change that at any time.
+
+2.6. Even if it doesn’t violate any of their intellectual property rights, you will not create Content and attach it to Markers or Reference Images that are linked to specific businesses, educational entities, or organizations if it in any way offends, disparages, profits from, or harms them. You agree to not create, copy or modify derivative works based on the Services. You will refrain from renting, licensing, loaning, (re-)selling, trading, or distributing the Services.
+
+2.7. At Viidit’s sole discretion, and without prior notice to you, we may temporarily or permanently suspend provisioning of the Services or parts thereof.
+
+2.8. As part of the continued use of the Services or as part of the registration process, you may be required to provide information about yourself. You will provide correct, accurate, and up-to-date information. You are solely responsible for maintaining the security and confidentiality of your User account, including your passwords. You understand that by using the Services, you may be subject to third party cookies.
+
+2.9. The responsibly for protecting the security of any content, including User Generated Content that is stored on the (mobile) device used to get access to the Services, is yours.</string>
+
+    <string name="title_4">3. Payment, Fees and Costs</string>
+    <string name="pha_4">3.1. You accept that we are not responsible for third party payment providers and their operation or availability. All payments for paid content are carried out by these third party payment providers.
+
+3.2. You are solely responsible for all costs involved in the use of the Services. These costs include but are not limited to communication costs related to the use of (mobile) devices, the use of mobile Internet and roaming, and taxes connected to your use of the Services.
+
+3.3. Viidit has Services that provides you with access to content which you have to pay for. If you select this paid content, you agree to pay the fee indicated and you may be asked to grant approval for the processing of automatic payments. We reserve the right to change the applicable fees for paid content at any time. All purchases of paid content are final. You agree that even in case we exercise our right to block access to content, to terminate or deny access to and use paid content, you are not entitled to a refund. Should the measures described in the previous sentence relate to actions by a third party provider of paid content (including Third Party Content), then we will use reasonable efforts to recover the purchase price on your behalf. We will divide the amounts remaining after deduction of recovery cost, on a pro rata basis to all affected users of the paid content.</string>
+
+    <string name="title_5">4. Intelectual Property Rights</string>
+    <string name="pha_5">4.1. Provided you remain in compliance with these T&amp;C, we grant you a personal, worldwide, terminable, non-assignable, royalty-free and non-exclusive right to use: (i) the content we provide to you, in connection with your use of the Services, and (ii) the software we provide to you.
+
+4.2. In granting you access to our Services, you grant Viidit and its affiliated companies a worldwide, irrevocable, perpetual, royalty-free and non-exclusive license to modify, translate, adapt, modify, publish, display and distribute any content (including User Generated Content) which you upload, provide or exchange on or through the Services. This license is restricted to the goal of enabling Viidit or its affiliated companies to perform, display, distribute and promote its Services, including but not limited to providing you with access to the content. Your license includes a right for Viidit or its affiliated companies to make the content available and sublicense it to Publishers, suppliers, licensors, other companies, organizations and individuals with whom Viidit cooperates with in providing the Services or developing and providing other services. You represent and warrant to Viidit that you have all necessary rights, power and authority to grant the license.
+
+4.3. All rights, title and interest, including but not limited to intellectual property rights, in and to the Services (which include databases, software, features, and applications), is owned by Viidit or its licensors. Unless agreed otherwise, you may not decompile, reverse engineer, or otherwise (attempt to) extract the source code of the software provided by Viidit or its licensors.
+
+4.4. Any intellectual property rights you have on content you display or post, you retain any and all rights to.
+
+4.5. You are not allowed to use the Viidit logo or any other graphic, logo, trademark, or service mark used by Viidit or its licensors in connection with the Services, unless we have agreed this, or specific guidelines permit this,</string>
+
+    <string name="title_6">5. Warrantees and Liability</string>
+    <string name="pha_6"><![CDATA[5.1. You warrant and represent that: (i) your use of the Services will not infringe or misappropriate the intellectual property rights of any third party; and (ii) your use of the Services is in strict compliance with Viidit\'s instructions and all applicable laws and regulations (including any local laws or regulations in your country and state regarding online conduct and acceptable content and the transmission of technical data). You indemnify Viidit from and hold Viidit harmless against any and all claims, including reasonable attorneys\' fees, resulting from you using the Services, and creating any content.
+
+5.2. Viidit uses it\’s best efforts to provide quality Services. You understand and accept that the Services are provided "as is" and "as available." Viidit disclaims all warranties of any kind, whether express or implied, and including warranties: (i) of merchantability, fitness for a particular purpose and non-infringement; and warranties that (ii) the content or other information obtained through the Services is correct and reliable; and (iii) the Services are error free or that access thereto is uninterrupted.
+
+5.3. In relation to your use of the Services, you agree that neither Viidit, its affiliated companies, licensors nor its suppliers are liable to you for any form of damages or loss which may be incurred by you. Unless and to the extent that damages are the direct result of willful intent or gross negligence of Viidit, Viidit accepts no liability for any direct, indirect and consequential damages and loss of business and data, whether based on contract, unlawful act (including negligence), or otherwise arising from or relating to the Services, even if Viidit or its affiliated companies, suppliers or licensors have been informed or should have known of the possibility of such damages. In any event, the maximum aggregate liability of Viidit, its affiliated companies, suppliers or licensors for any and all damages arising from the Services shall be a refund of the amount paid by you to Viidit, if any.
+
+5.4. By agreeing to these T&C you agree to indemnify, defend and hold harmless Viidit, our managing members, shareholders, employees, affiliates, licensors and suppliers (the "Viidit Parties") from and against any and all complaints, charges, claims, damages, losses, costs, liabilities, and expenses (including attorneys\' fees) due to, arising out of, or relating in any way to (a) your use of the Services; (b) any User Content you post, upload, use, distribute, store or otherwise transmit through the Services; © your violation of these T&C; or (d) your violation of the rights of another.
+
+5.5. Except where prohibited by law, in no event will Viidit or the Viidit Parties be liable for any indirect, special, punitive, incidental, exemplary or consequential damages that result from (a) the use of, or inability to use, the Services; (b) the provision of the Services or any materials available therein; or © the conduct of other users of the Services, even if Viidit has been advised of the possibility of such damages. You assume total responsibility for your use of the Services. Your only remedy against Viidit for dissatisfaction with the Services or any content is to stop using the Services. If, notwithstanding these T&C, Viidit is found liable to you for any damage or loss which arises out of or is in any way connected with your use of the Services or any content, Viidit\'s liability shall in no event exceed $1.00. Some jurisdictions do not allow limitations of liability, so the foregoing limitation may not apply to you.
+
+5.6. PLEASE READ THE FOLLOWING PARAGRAPH CAREFULLY BECAUSE IT REQUIRES YOU TO ARBITRATE DISPUTES WITH VIIDIT AND LIMITS THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM US.
+
+You and Viidit agree to arbitrate any dispute arising from these T&C or your use of the Services, except that you and Viidit are not required to arbitrate any dispute in which either party seeks equitable and other relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets, or patents. ARBITRATION PREVENTS YOU FROM SUING IN COURT OR FROM HAVING A JURY TRIAL. You and Viidit agree (a) that any arbitration will occur in Salt Lake City, Utah; (b) that arbitration will be conducted confidentially by a single arbitrator in accordance with the rules of JAMS; and © that the state or federal courts of Salt Lake County, Utah have exclusive jurisdiction over any appeals of an arbitration award and over any suit, if any, between the parties not subject to arbitration. Other than class procedures and remedies discussed below, the arbitrator has the authority to grant any remedy that would otherwise be available in court. WHETHER THE DISPUTE IS HEARD IN ARBITRATION OR IN COURT, YOU AND VIIDIT WILL NOT COMMENCE AGAINST THE OTHER A CLASS ACTION, CLASS ARBITRATION OR REPRESENTATIVE ACTION OR PROCEEDING.
+
+5.7. 5.7. A lawsuit, if any, by you or Viidit against the other will occur in state or federal court in Salt Lake, Utah. You and Viidit agree that the jurisdiction and venue of these courts is exclusive.]]></string>
+
+    <string name="title_7">6. Termination</string>
+    <string name="pha_7">6.1. You agree that Viidit is entitled to terminate the agreement with you, wholly or in part, if: (i) Viidit decides to permanently suspend the Services; (ii) Viidit is obliged to do so by law or through an order of any competent authority; or (iii) you breach any provision of these T&amp;C.
+
+6.2. At your discretion, you may terminate the use of the Services, but, unfortunately, it is impossible for you to de-install the Services in case it has been pre-installed by the manufacturer of your device.
+
+6.3. All provisions that are intended to survive the termination, by nature or because such has expressly been provided for in these T&amp;C or any agreement with you, shall survive such termination. These provisions include, but are not limited to, provisions regarding intellectual property, warranty exclusions, indemnity and limitations of liability and applicable law.
+
+6.4. Upon termination of the agreement, you understand and accept that you will have to stop using the Services immediately and remove any content you have been using from your devices. You also agree that Viidit will not owe you a refund for any reason.</string>
+
+    <string name="title_8">7. Miscellaneous</string>
+    <string name="pha_8">7.1. Withiout giving notice to you, we may at any time assign our rights, under any agreement with you, to any other company, individual or organization at our sole option.
+
+7.2. You agree that if Viidit does not exercise or enforce any legal right or remedy, this will not constitute a formal waiver of Viidit\'s rights.
+
+7.3. If any provision of these T&amp;C shall be deemed unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from these T&amp;C and shall not affect the validity and enforceability of any remaining provisions.
+
+7.4. We reserve the right to modify or discontinue, temporarily or permanently, the Services or any features or portions thereof without prior notice. You agree that we will not be liable for any modification, suspension or discontinuance of the Services or any part thereof.
+
+7.5. Disclaimer: THE SERVICES AND THE VIIDIT CONTENT ARE PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN ADDITION, WHILE VIIDIT ATTEMPTS TO PROVIDE A GOOD USER EXPERIENCE, WE CANNOT AND DO NOT REPRESENT OR WARRANT THAT THE SERVICES WILL ALWAYS BE SECURE OR ERROR-FREE OR THAT THE SERVICES WILL ALWAYS FUNCTION WITHOUT DELAYS, DISRUPTIONS OR IMPERFECTIONS.
+
+7.6. The Services are hosted in the United States. If you are a user accessing the Services from the European Union, Asia, or any other region with laws or regulations governing personal data collection, use, and disclosure, that differ from United States laws, please be advised that through your continued use of the Services, which are governed by U.S. law, you are transferring your personal information to the United States and you consent to that transfer.
+
+7.7. These Terms supersede all prior understandings regarding the same and represent the complete agreement between you and Viidit.</string>
+
+    <!--End Terms & Contitions  -->
+
+    <!-- Privacy Policy -->
+
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_last_update">Last updated May 30, 2014</string>
+
+    <string name="phra_0">This privacy policy (“Privacy Policy”) explains how information about you is collected, used and disclosed by Viidit, LLC and our subsidiaries (collectively, "Viidit") when you use our websites, mobile applications and other online products and services, such as our augmented reality application that enables you to exchange content publically and have access to reality messages which may contain content, such as videos, 2D/3D models, text, links, graphics, and pictures as well as images required for the detection and tracking of features to display content attached to reference marker ("Markers"), jointly referred to as the "Third Party Content," and other applications, features, software, databases and services (collectively, the "Services"), if you generate content ("User Generated Content"), then it is unavoidable that some personal data will be collected. In the case that we do collect some data, we will process, store and use it only as described in this Privacy Policy.
+
+We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with additional notice (such as adding a statement to our websites\' homepages or sending you a notification). We encourage you to review the Privacy Policy whenever you access the Services to stay informed about our information practices and the ways you can help protect your privacy.
+
+We provide software, websites, applications, tools, and systems for the purpose of allowing you to create Third Party Content. So, if f you are a developer ("Publisher") or a publisher ("Developer") of Third Party Content, we will collect personal data through these tools and features, which we provide for the purpose of helping you create the content and the marketing and distribution of the Third Party Content.
+
+Irrespective of which country that you reside in or create information from, when using or contributing to any of our Services – whether in capacity as Developer, Publisher or User – you consent to the collection, storage, disclosure, manipulation, transfer, and other uses of your information as described in this Privacy Policy. This Privacy Policy is part of and subject to the Viidit Terms and Conditions of Use ("T&amp;C").
+
+To contact us, please visit http://support@viidit.com or write to:: Viidit, LLC, 2802 West 1100 North, Layton, UT 84041.</string>
+
+
+    <string name="title2_1">1. Information Collection and Use</string>
+    <string name="phra_1">1.1. If you have fully complied with the requirements on creating a user account, we allow you to login through social networks that you have linked to.
+
+1.2. Whenever you open a Viidit message when using our Services, you will be connected automatically with the server of the Third Party Content either in the Viidit store or from an outside provider. You may access the Services through a user account you have set up with a Publisher or another third party. We advise you to read the privacy policy applied by such third party, and we will not store any personal data that relate to your user account with that third party. With respect to cookies, please note that these third parties may apply different policies.
+
+1.3. This Privacy Policy sets forth the terms under which we will collect and process your personal data when we provide the Services. For a number of our Services, we sometimes require that you create a User account with us.
+
+1.4. Our servers will collect, store and process data in respect to the Marker images and Viidit messages attached to those Markers that are created. You grant us permission in respect of the processing of any of your personal data that are contained therein.
+
+1.5. Unless you provided your personal data, such as username or IP address, the system will not be able to trace you, whenever you return to the Publisher or third party\'s server. However, it will recognize you as a repeat visitor.
+
+1.6. By accessing Third Party Content, you grant us permission in respect of the processing of any of your personal data that may be contained therein. All Third Party Content, which you can access through the Services, is provided to you by those third parties. For some features it is unavoidable that some personal data will be collected through our websites and the Services or through other contacts. However, in most cases, we do not process Third Party Content.
+
+1.7. Through the Viidit Scanner or websites, you determine the purposes for which you use, collect and disclose content, including the User Generated Content.
+
+1.8. Publishers, which are Third Parties, are solely responsible for regulation and compliance with applicable data protection, because of the processing of your personal data in connection with your use of the Third Party Content. And, in that capacity, they are solely responsible for compliance with applicable data protection and other legislation and regulation with regard to such processing.
+
+1.9. We require that you exercise care when creating or exchanging Viidit messages or personal data of others as part of User Generated Content. Any personal data of third parties that are contained in your User Generated Content are subject to data protection and other legislation and regulation. You are fully responsible to compliance with these regulations and laws. By exchanging, providing and/or uploading User Generated Content, you grant us permission in respect of the use, storage and processing of any of your personal data that are contained therein.
+
+1.10. Only for as long as this is necessary for delivering our Services and/or to the extent required or permitted by applicable law, we will process location data for which you gave us your consent, including but not limited to your GPS-location, which were provided by you or which we receive from GPS location service providers.
+
+1.11. Our servers automatically record information created by your use of and contribution to the Services ("Log Data") and images the Developer supplies to Viidit in order enable the extraction by Users of features for recognition through the Services. We remove the Log Data every few months, but the Log Data may include information such as your phone ID, browser type, click paths and search terms. Interactions between Users and Publishers may also be included in Log Data. We will aggregate and anonymize the Log Data, add up all individual events and only use the aggregate data for statistical purposes.</string>
+
+    <string name="title2_2">Collection, Use and Transfer of Personal Data</string>
+    <string name="phra_2">2.1. We may share information about you as follows or as otherwise described in this Privacy Policy: (i) With other users when you send them messages, including your username and the contents of the message you send them; (ii) With vendors, consultants and other service providers who need access to such information to carry out work on our behalf; (iii) In response to legal process or a request for information if we believe disclosure is in accordance with any applicable law, rule, or regulation, or as otherwise required by any applicable law, rule or regulation; (iv) In order to investigate or remedy potential violations of our user agreements or policies, or to protect the rights, property and safety of Viidit, our users or others; (v) In connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business to another company; and (vi) With your consent or at your direction. We may also share aggregated or de-identified information, which cannot reasonably be used to identify you. However, we will not sell or provide your personal data to third parties.
+
+2.2. We may use the collected personal data for the following purposes: (i) sending you promotional communications about us and electronic messages containing our Service; (ii) the provision of access to the Services, including the Viidit Scanner, and subsequent transmission of Third Party or User Generated Content, including us extracting features from Marker Images to provide the Services; (iii) enabling you to share your messages and communicate with other users; (iv) the distribution of the Third Party Content and/or User Generated Content, and (v) improvement and technical administration of the Viidit platform and/or Services.
+
+2.3. If Viidit or substantially all of its assets are acquired by a third party, personal data about you as a customer will be one of the transferred assets. We also reserve the right to access and disclose individually identifiable information to comply with applicable laws and lawful government requests, to operate our systems properly or to protect us or our (other) users. We reserve the right to disclose anonymized User account data to the prospective seller or buyer of such business or assets. We may disclose your personal data to third parties in the event that we sell or buy any business or assets.
+
+2.4. The information you provide to us may be transferred to countries outside of the United States (US), because of the provision of access to and subsequent transmission of Third Party Content or User Generated Content that is present on severs outside the US. Your personal data may be transferred to hosting parties, or other service providers in countries, such as the European Economic Area ("EEA"), where they have a different level of data protection. We will take all steps reasonably necessary to ensure that your privacy rights remain protected, before transferring your personal data outside of the US.</string>
+
+    <string name="title2_3">User Account</string>
+    <string name="phra_3">3.1. If you are a Developer or a Publisher, we sometimes require that you create a Developer or Publisher account with us. When you use our platform as a Developer or Publisher, we will use and process your personal data, such as your name, username, password and email address, as necessary for the marketing and distribution of the Third Party Content. Viidit is the controller with regard to this processing.
+
+3.2. In order to open an account, whether a User, Developer or Publisher, you must provide us at least with the following information: password, username and email address and profile if you create one or any other specific information. Apart from this, we may collect data from you regarding the following categories: additional contact information, device, payment, marketing, sales, and user generated information profiles, inventory and storage information. You also consent that whether you are a User, Developer or Publisher, by creating a User, Developer or Publisher account, you allow others, including Viidit, to identify you. If you are a Developer or a Publisher, we may, in addition to the aforementioned data, also collect public contact and bank information, and information about messages. We will use, store and process such data only to enable you to activate and use the Services. Every time you use a Viidit user account to log in at a Publisher, you will be requested to consent that your log data and some of your personal data are transmitted to that Publisher.
+
+3.3. If you share information about yourself or others by means of your user account this will be visible to anyone also using the Services. If you wish to exchange, provide or upload information about other individuals, you are advised to obtain their consent first. Once you have opened a user account, you may upload provide and exchange additional information in the profile section, which will be visible to others. Additional personal data will be added to your account when you use the Services. By doing so, you consent to the further dissemination, processing, removal and storage of profile section information.</string>
+
+    <string name="title2_4">Cookies</string>
+    <string name="phra_4">Most web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove or reject browser cookies. Please note that if you choose to remove or reject cookies, this could affect the availability and functionality of our website.</string>
+
+    <string name="title2_5">Your Rights</string>
+    <string name="phra_5">Viidit may send push notifications or alerts to your device. You can deactivate these messages at any time by changing the notification settings on your device (iOS) or by changing your settings within our Services (Android). You can verify or correct the accuracy of your personal data if you request to access it. You can cancel your account and request the removal of your personal data. Once removed, it is possible that we cannot restore that data.</string>
+
+    <string name="title2_6">Data Security</string>
+    <string name="phra_6">Your personal data shall only be accessed by authorized staff. These staff members are obliged to preserve the confidentiality of all the information that comes to their attention, unless disclosure is compulsory by law or necessary for the fulfillment of their task. We have implemented appropriate technical and organizational security measures pertaining to the storage and provision of personal data, in order to, amongst others, prevent access to your personal data by any unauthorized persons.</string>
+    <!-- End Privacy Policy -->
+
+
 </resources>
