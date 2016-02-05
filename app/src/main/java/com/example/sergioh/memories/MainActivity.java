@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn_facebook = (Button)findViewById(R.id.btn_loginFacebook);
 
-        btn_facebook.setOnClickListener(new View.OnClickListener() {
+      /*  btn_facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Crear instancia para AsyncCallWS
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 task.execute();
             }
         });
+        */
     }
     public void toCreateAccount(View v){
 
@@ -50,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
     public void toLoginAccount(View v){
 
         Intent i = new Intent(this, Login_account.class);
+        startActivity(i);
+
+    }
+    public void toTapCamera(View v){
+
+        Intent i = new Intent(this, Camera_with_Tap.class);
         startActivity(i);
 
     }
