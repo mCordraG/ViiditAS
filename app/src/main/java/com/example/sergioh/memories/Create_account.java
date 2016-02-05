@@ -11,13 +11,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Create_account extends AppCompatActivity {
     EditText name,first_name,Email,password;
     TextView text_toolbar;
     TextView crear;
-    Button volver;
+    ImageButton volver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +30,7 @@ public class Create_account extends AppCompatActivity {
         crear = (TextView)findViewById(R.id.btn_create_account);
         text_toolbar = (TextView)findViewById(R.id.text_toolbar);
         text_toolbar.setText("Create a account");
-        volver=(Button)findViewById(R.id.btn_volverToolbar);
+        volver=(ImageButton)findViewById(R.id.btn_volverToolbar);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.appbar);
         setSupportActionBar(toolbar);

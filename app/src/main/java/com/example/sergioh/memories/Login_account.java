@@ -11,12 +11,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Login_account extends AppCompatActivity {
     TextView text_toolbar;
     EditText Email,Password;
-    Button volver;
+    ImageButton volver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +29,7 @@ public class Login_account extends AppCompatActivity {
         Email =(EditText)findViewById(R.id.email_LoginAccount);
         Password= (EditText)findViewById(R.id.password_loginAccount);
 
-        volver = (Button)findViewById(R.id.btn_volverToolbar);
+        volver = (ImageButton)findViewById(R.id.btn_volverToolbar);
         Toolbar toolbar = (Toolbar) findViewById(R.id.appbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);

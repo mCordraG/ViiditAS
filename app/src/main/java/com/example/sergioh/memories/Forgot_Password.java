@@ -9,10 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Forgot_Password extends AppCompatActivity {
-    Button volver;
+    ImageButton volver;
     TextView text_toolbar;
     EditText Email;
     @Override
@@ -22,7 +23,7 @@ public class Forgot_Password extends AppCompatActivity {
 
         text_toolbar = (TextView)findViewById(R.id.text_toolbar);
         text_toolbar.setText("Forgot Password");
-        volver=(Button)findViewById(R.id.btn_volverToolbar);
+        volver=(ImageButton)findViewById(R.id.btn_volverToolbar);
 
         Email =(EditText)findViewById(R.id.email_forgotPassword);
         Toolbar toolbar = (Toolbar) findViewById(R.id.appbar);

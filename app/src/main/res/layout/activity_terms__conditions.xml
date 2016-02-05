@@ -17,7 +17,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.sergioh.viidit.terms_conditions"
-        android:background="#f8c725">
+        android:background="#ffffff">
 
 
         <ScrollView
@@ -38,7 +38,9 @@
                     android:textSize="35dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -49,106 +51,122 @@
                     android:layout_below="@+id/textView12"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginTop="10dp" />
+                    android:layout_marginBottom="5dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_1"
-                    android:id="@+id/textView14" />
+                    android:id="@+id/textView14"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_1"
-                    android:id="@+id/textView15" />
+                    android:id="@+id/textView15"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_2"
-                    android:id="@+id/textView16" />
+                    android:id="@+id/textView16"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_2"
-                    android:id="@+id/textView17" />
+                    android:id="@+id/textView17"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_3"
-                    android:id="@+id/textView18" />
+                    android:id="@+id/textView18"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_3"
-                    android:id="@+id/textView19" />
+                    android:id="@+id/textView19"
+                    android:layout_marginBottom="2dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_4"
-                    android:id="@+id/textView20" />
+                    android:id="@+id/textView20"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_4"
-                    android:id="@+id/textView21" />
+                    android:id="@+id/textView21"
+                    android:layout_marginBottom="2dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_5"
-                    android:id="@+id/textView22" />
+                    android:id="@+id/textView22"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_5"
-                    android:id="@+id/textView23" />
+                    android:id="@+id/textView23"
+                    android:layout_marginBottom="2dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_6"
-                    android:id="@+id/textView24" />
+                    android:id="@+id/textView24"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_6"
-                    android:id="@+id/textView25" />
+                    android:id="@+id/textView25"
+                    android:layout_marginBottom="2dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_7"
-                    android:id="@+id/textView26" />
+                    android:id="@+id/textView26"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_7"
-                    android:id="@+id/textView27" />
+                    android:id="@+id/textView27"
+                    android:layout_marginBottom="2dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/title_8"
-                    android:id="@+id/textView28" />
+                    android:id="@+id/textView28"
+                    android:layout_marginBottom="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pha_8"
-                    android:id="@+id/textView29" />
+                    android:id="@+id/textView29"
+                    android:layout_marginBottom="2dp" />
 
             </LinearLayout>
         </ScrollView>

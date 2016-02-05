@@ -9,16 +9,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Terms_Conditions extends AppCompatActivity {
-    Button volver;
+    ImageButton volver;
     TextView text_toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terms__conditions);
-        volver = (Button)findViewById(R.id.btn_volverToolbar);
+        volver = (ImageButton)findViewById(R.id.btn_volverToolbar);
         text_toolbar = (TextView)findViewById(R.id.text_toolbar);
         text_toolbar.setText("Terms & Conditions");
 
